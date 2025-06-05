@@ -7,7 +7,7 @@ limparCampo();
 function exibirTextoTela(tag, texto) {
     let campo = document.querySelector(tag);
     campo.innerHTML = texto;
-    responsiveVoice.speak(texto, 'Brazilian Portuguese Female');
+    responsiveVoice.speak(texto, 'Brazilian Portuguese Male');
 }
 
 function exibirMensagemInicial() {
